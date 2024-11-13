@@ -180,32 +180,29 @@
 
 
     <!-- Why Choose Us -->
-    <div class="absolute top-[3550px] lg:top-[1900px] left-8 lg:left-52 rounded w-5/6 lg:w-4/6 lg:h-[400px] bg-white shadow-2xl p-6 text-sky-900">
+    <div class="absolute top-[3600px] lg:top-[1900px] left-8 lg:left-52 rounded w-5/6 lg:w-4/6 lg:h-[400px] bg-white shadow-2xl p-6 text-sky-900">
         <h1 class="text-lg text-center md:text-2xl lg:text-3xl font-bold text-sky-900 pb-3 lg:pt-4">Why Choose Us</h1>
 
         <div class="flex flex-wrap justify-center">
             <div class="hover:border-solid border-dotted border-2 border-sky-900 flex flex-col drop-shadow-md bg-white rounded-lg w-24 lg:w-32 m-2 lg:m-3 overflow-hidden">
-                <img src="src/asset/lawyer.png" alt="like" class="h-20 mt-2 mx-4 lg:m-6">
-                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0">Pengacara Pajak Profesional</h2> 
+                <img src="src/asset/lawyer.png" alt="like" class="h-20 mt-2 mx-2 lg:mx-4 lg:m-6">
+                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0 mb-4">Pengacara Pajak Profesional</h2> 
             </div>
 
             <div class="hover:border-solid border-dotted border-2 border-sky-900 flex flex-col drop-shadow-md bg-white rounded-lg w-24 lg:w-32 m-2 lg:m-3 verflow-hidden">
-                <img src="src/asset/peningkatan.png" alt="money" class="h-20 mt-2 mx-4 lg:m-6">
-                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0">Perusahaan Dengan Pertumbuhan Tercepat</h2> 
+                <img src="src/asset/peningkatan.png" alt="money" class="h-20 mt-2 mx-2 lg:mx-4 lg:m-6">
+                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0 mb-4">Perusahaan Dengan Pertumbuhan Tercepat</h2> 
             </div>
 
             <div class="hover:border-solid border-dotted border-2 border-sky-900 flex flex-col drop-shadow-md bg-white rounded-lg  w-24 lg:w-32 m-2 lg:m-3 overflow-hidden">
-                <img src="src/asset/target.png" alt="chat" class="h-20 mt-2 mx-4 lg:m-6">
-                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0">Penggunaan Segregasi dan Pendekatan  Ex-Ante</h2> 
+                <img src="src/asset/target.png" alt="chat" class="h-20 mt-2 mx-2 lg:mx-4 lg:m-6">
+                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0 mb-4">Penggunaan Segregasi dan Pendekatan  Ex-Ante</h2> 
             </div>
 
             <div class="hover:border-solid border-dotted border-2 border-sky-900 flex flex-col drop-shadow-md bg-white rounded-lg  w-24 lg:w-32 m-2 lg:m-3 overflow-hidden">
-                <img src="src/asset/team.png" alt="shield" class="h-20 mt-2 mx-4 lg:m-6">
-                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0">Pengalaman Yang Luas</h2> 
+                <img src="src/asset/team.png" alt="shield" class="h-20 mt-2 mx-2 lg:mx-4 lg:m-6">
+                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0 mb-4">Pengalaman Yang Luas</h2> 
             </div>
-
-
-
         </div>
     </div>
 
@@ -218,12 +215,48 @@
             <!-- Section Title -->
             <h2 class="text-3xl font-bold text-center lg:mt-56 mt-60 mb-8 text-white">Team Kami</h2>
             
+
+
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="src/asset/profile1.png" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-3xl bg-white" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                        <img src="src/asset/profile2.png" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-3xl bg-white" alt="...">
+                    </div>
+                </div>
+
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
+
+
         </div>
     </section>
 
 
 
-    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
