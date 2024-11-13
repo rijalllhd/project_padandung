@@ -1990,6 +1990,10 @@ video {
   border-radius: 1.5rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -3441,6 +3445,10 @@ video {
 
   .lg\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .lg\:rounded-3xl {
+    border-radius: 1.5rem;
   }
 
   .lg\:px-16 {
