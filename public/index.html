@@ -1,0 +1,715 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../src/output.css" rel="stylesheet">
+  <link rel="icon" sizes="32x32" href="../src/asset/favicon.png" type="image/png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+  </style>
+
+
+</head>
+<body  class="font-sans">
+  
+     <!-- Navbar -->
+     <nav class="bg-white px-6 lg:px-28 py-3" id="home">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="text-blue-900 text-lg font-bold"><img src="../src/asset/logo.png" alt="" class="h-8 lg:h-12"></a>
+
+            <!-- Menu for larger screens -->
+            <div class="hidden md:flex space-x-6 font-bold text-lg">
+                <a href="#home" class="text-blue-900 hover:text-blue-500">Home</a>
+                <a href="#aboutus" class="text-blue-900 hover:text-blue-500">About us</a>
+                <a href="#" class="text-blue-900 hover:text-blue-500">Services</a>
+                <a href="#" class="text-blue-900 hover:text-blue-500">Client</a>
+                <a href="#" class="text-blue-900 hover:text-blue-500">Contact</a>
+            </div>
+
+            <!-- Hamburger icon for mobile screens -->
+            <button data-collapse-toggle="navbar-menu" type="button" class="md:hidden text-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-900">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Dropdown menu for mobile screens -->
+        <div id="navbar-menu" class="hidden md:hidden bg-white">
+            <a href="#home" class="block text-blue-900 py-2 mt-2 hover:bg-blue-500">Home</a>
+            <a href="#aboutus" class="block text-blue-900 py-2 hover:bg-blue-500">About us</a>
+            <a href="#" class="block text-blue-900 py-2 hover:bg-blue-500">Services</a>
+            <a href="#" class="block text-blue-900 py-2 hover:bg-blue-500">Client</a>
+            <a href="#" class="block text-blue-900 py-2 hover:bg-blue-500">Contact</a>
+        </div>
+    </nav>  
+
+
+
+
+    <!-- jumbotron -->
+    <section class="bg-center bg-cover h-max md:h-screen bg-custom-bg bg-gray-700 bg-blend-multiply">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-36 lg:py-44">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl" data-aos="fade-up">PT Nafari Abhipraya Cipta</h1>
+            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48" data-aos="fade-up" data-aos-duration="600">Mengelola dan mengurangi resiko pajak Anda.</p>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-900 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900" data-aos="fade-up" data-aos-duration="800">
+                    Hubungi kami
+                    <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+                <a href="sejarah.html" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400" data-aos="fade-up" data-aos-duration="800">
+                    Selengkapnya
+                </a>  
+            </div>
+        </div>
+    </section>
+
+
+
+
+     <!-- About Us Section -->
+     <section class="py-12 px-4 md:px-8 lg:px-28 bg-white" id="aboutus">
+        <div class="container mx-auto">
+            <!-- Section Title -->
+            <h2 class="text-3xl font-bold text-center mb-8 text-blue-900">About Us</h2>
+            
+            <!-- Three Columns: About, Vision, Mission -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- About Us Column -->
+                <div class="p-6 bg-blue-100 rounded-lg shadow-md" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">Tentang Kami</h3>
+                    <p class="text-gray-700">NAC Consulting adalah sebuah perusahaan Konsultan Pajak di Indonesia yang saat ini mempekerjakan tenaga ahli yang sebelumnya bekerja di Direktorat Jenderal Pajak. Kami memiliki keahlian yang kuat dalam identifikasi risiko dan keterampilan interpersonal sebagai faktor kunci dalam menangani kepatuhan pajak, pemeriksaan pajak, hingga penyelesaian sengketa pajak. <br><br>
+
+                    NAC Consulting bukanlah konsultan pajak kuno. Kami mengoptimalkan pemanfaatan teknologi terkini untuk menjaga tingkat layanan NAC Consulting kepada klien dan untuk mengintegrasikan semua komponen yang diperlukan dalam penyelesaian suatu proyek.</p>
+                </div>
+
+                <!-- Vision Column -->
+                <div class="p-6 bg-green-100 rounded-lg shadow-md" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-4 text-green-600">Visi</h3>
+                    <p class="text-gray-700">Menjadi perusahaan konsultan pajak terbaik di Indonesia.</p>
+                </div>
+
+                <!-- Mission Column -->
+                <div class="p-6 bg-purple-100 rounded-lg shadow-md" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-600">Misi</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Memiliki SDM yang kompeten dibidang perpajakan.</li>
+                        <li>Mengedepankan kepuasan client.</li>
+                        <li>Menjalankan budaya kerja perusahaan.</li>
+                        <li>Selalu memperbarui ilmu dan pengetahuan yang dimiliki.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Budaya kerja Section -->
+    <section class="py-12 px-4 md:px-8 lg:px-28 lg:mb-40 bg-white text-blue-900">
+        <div class="container mx-auto">
+            <!-- Section Title -->
+            <h2 class="text-3xl font-bold text-center mb-8">Budaya Kerja</h2>
+            
+            <!-- Three Columns: About, Vision, Mission -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-60 lg:pb-10">
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    <a href="#">
+                        <img class="rounded-t-lg h-52 w-full object-cover" src="../src/asset/integrity.jpeg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-blue-900">Integritas</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Kami menjaga konsistensi kami dalam memberikan komitmen, bersikap transparan dan jujur, serta menegakkan namma dan hukum.</p>
+                        
+                    </div>
+                </div>
+
+                <div class="max-w-sm bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    <a href="#" >
+                        <img class="rounded-t-lg h-52 w-full object-cover" src="../src/asset/teamwork.jpeg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-blue-900">Kerjasama</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Kami memfasilitasi client kami dengan tenaga kerja yang berpengetahuan luas dan komprehensif.</p>
+                        
+                    </div>
+                </div>
+
+                <div class="max-w-sm bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    <a href="#">
+                        <img class="rounded-t-lg h-52 w-full object-cover" src="../src/asset/accounting.jpeg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-blue-900">Tidak Mudah Menyerah</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Personil kami optimis di tengah-tengah dari hambatan dan tantangan.</p>
+                        
+                    </div>
+                </div>
+
+
+                <div class="max-w-sm bg-white border border-blue-200 rounded-lg shadow" data-aos="zoom-in-up" data-aos-duration="600">
+                    <a href="#">
+                        <img class="rounded-t-lg h-52 w-full object-cover" src="../src/asset/profesional.jpeg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-blue-900">Profesional</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Kami memiliki tenaga kerja yang komprehensif, berkomitmen, bertanggun jawab, dan berdedikasi.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Choose Us -->
+    <div class="absolute top-[3600px] lg:top-[2000px] 2xl:top-[2200px] left-8 lg:left-52 rounded-lg w-5/6 lg:w-4/6 lg:h-[400px] bg-white shadow-2xl p-6 text-sky-900">
+        <h1 class="text-lg text-center md:text-2xl lg:text-3xl font-bold text-sky-900 pb-3 lg:pt-4">Why Choose Us</h1>
+
+        <div class="flex flex-wrap justify-center">
+            <div class="hover:border-solid border-dotted border-2 border-sky-900 flex flex-col drop-shadow-md bg-white rounded-lg w-24 lg:w-32 m-2 lg:m-3 overflow-hidden">
+                <img src="../src/asset/lawyer.png" alt="like" class="h-20 mt-2 mx-2 lg:mx-4 lg:m-6">
+                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0 mb-4">Pengacara Pajak Profesional</h2> 
+            </div>
+
+            <div class="hover:border-solid border-dotted border-2 border-sky-900 flex flex-col drop-shadow-md bg-white rounded-lg w-24 lg:w-32 m-2 lg:m-3 verflow-hidden">
+                <img src="../src/asset/peningkatan.png" alt="money" class="h-20 mt-2 mx-2 lg:mx-4 lg:m-6">
+                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0 mb-4">Perusahaan Dengan Pertumbuhan Tercepat</h2> 
+            </div>
+
+            <div class="hover:border-solid border-dotted border-2 border-sky-900 flex flex-col drop-shadow-md bg-white rounded-lg  w-24 lg:w-32 m-2 lg:m-3 overflow-hidden">
+                <img src="../src/asset/target.png" alt="chat" class="h-20 mt-2 mx-2 lg:mx-4 lg:m-6">
+                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0 mb-4">Penggunaan Segregasi dan Pendekatan  Ex-Ante</h2> 
+            </div>
+
+            <div class="hover:border-solid border-dotted border-2 border-sky-900 flex flex-col drop-shadow-md bg-white rounded-lg  w-24 lg:w-32 m-2 lg:m-3 overflow-hidden">
+                <img src="../src/asset/team.png" alt="shield" class="h-20 mt-2 mx-2 lg:mx-4 lg:m-6">
+                <h2 class="text-center lg:text-base text-sm mt-2 lg:mt-0 mb-4">Pengalaman Yang Luas</h2> 
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Team Kami Section -->
+    <section class="py-12 px-4 md:px-8 lg:px-16 bg-blue-900">
+        <div class="container mx-auto">
+            <!-- Section Title -->
+            <h2 class="text-3xl font-bold text-center lg:mt-56 mt-60 mb-8 text-white">Team Kami</h2>
+
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="duration-700 ease-in-out" data-carousel-item>
+                        <img src="../src/asset/profile1.png" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:rounded-3xl rounded-2xl bg-white" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="duration-700 ease-in-out" data-carousel-item="active">
+                        <img src="../src/asset/profile2.png" class="absolute block h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 lg:rounded-3xl rounded-2xl bg-white" alt="...">
+                    </div>
+                </div>
+
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <section class="container mx-auto flex flex-col md:flex-row items-center bg-gray-200 shadow-lg rounded-lg w-full lg:px-28 lg:pt-5 pb-7">
+        <!-- Image Section -->
+        <div class="w-full md:w-2/6 mb-6 md:mb-0">
+          <img src="../src/asset/foto.png" alt="Placeholder Image" class="w-auto h-60  lg:h-80 lg:w-auto lg:pl-10 rounded-lg mx-auto">
+        </div>
+        <!-- Text Section -->
+        <div class="w-full md:w-4/6 md:pl-8 text-center md:text-left">
+          <h2 class="text-3xl font-bold text-blue-900">Bingung Urusan Pajak? Kami Siap Membantu!</h2>
+          <p class="mt-4 text-gray-700">Apakah Anda merasa kebingungan dengan urusan pajak? Tak perlu khawatir! Kami hadir untuk memberikan solusi yang mudah dan jelas. Mulai dari perencanaan hingga pelaporan pajak, tim ahli kami siap mendampingi Anda di setiap langkah.</p>
+          <!-- Button -->
+          <button class="mt-6 px-6 py-2 bg-blue-900 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
+            Mulai Konsultasi
+          </button>
+        </div>
+    </section>
+
+
+    <!-- Jasa Kami Akuntasi Section -->
+    <section class="py-12 px-4 md:px-8 lg:px-28 bg-white text-blue-900">
+        <div class="container mx-auto">
+            <!-- Section Title -->
+            <h2 class="text-3xl font-bold text-center mb-8">Jasa Kami - Akuntansi</h2>
+            
+            <!-- Three Columns: About, Vision, Mission -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-8 pb-16 lg:pb-10">
+
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Pembukuan Akuntansi</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-1"></span>Membuat Sistem Akuntansi dengan bantuan aplikasi akuntansi (Accurate Ver 5.0) dan memberikan bantuan dan saran dalam penyelenggaraan pembukuan perusahaan dan </span>
+                            <span id="full-text-1" style="display: none;">
+                                menyusun Laporan Keuangan berkala yang berguna untuk manajemen dalam pengambilan keputusan terutama terkait dengan transaksi yang berhubungan perpajakan untuk meminimalisir temuan dan risiko perpajakan yang mungkin timbul sesuai dengan ketentuan perpajakan.
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(1)" id="toggle-button-1" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Jasa Bantuan Kompilasi <br> (Penyusunan Laporan Keuangan)</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-2"></span>Jasa yang juga terkait dalam melakukan kompilasi Laporan Keuangan berdasarkan dokumen,</span>
+                            <span id="full-text-2" style="display: none;">
+                                catatan dan informasi keuangan lainnya yang diberikan manajemen. Melakukan proses akuntansi melalui pencatatan dimulai dari transaksi harian, Chart Of Account (Kode Akun), Jurnal, Neraca lajur, Buku Besar (GL), Buku Pembantu Sampai kepada penyusunan laporan keuangan Komersial dan Fiskal serta informasi tambahan sesuai dengan kebutuhan Perusahaan. Pembukuan akan diselesaikan sesuai dengan periode Pelaporan Akuntansi yang normal atau sesuai dengan kebutuhan perusahaan. Sedangkan untuk pelaporan pajak akan disesuaikan waktu yang ditetapkan oleh peraturan perundang- undangan perpajakan.
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(2)" id="toggle-button-2" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Jasa Kami Perpajaan Section -->
+    <section class="py-12 px-4 md:px-8 lg:px-28 bg-white text-blue-900">
+        <div class="container mx-auto">
+            <!-- Section Title -->
+            <h2 class="text-3xl font-bold text-center mb-8">Jasa Kami - Perpajakan</h2>
+            
+            <!-- Three Columns: About, Vision, Mission -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-2 pb-20 lg:pb-10">
+
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Jasa Administrasi Perpajakan</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-3"></span>Membantu Perusahaan dalam pengajuan pemohonan sehubungan dengan pemenuhan ketentuan- ketentuan administratif perpajakan seperti:</span>
+                            <span id="full-text-3" style="display: none;">
+                                - Pendaftaran Wajib Pajak, Pengusaha Kena Pajak, penghapusan NPWP/PKP.<br>
+                                - Pengajuan pindah alamat KPP Domisili atau Lokasi Usaha.<br>
+                                - Pengajuan pengurangan angsuran PPh pasal 25.<br>
+                                - Pengajuan permohonan Surat Keterangan Bebas (SKB) PPN dan atau PPh Ps 21,22,23 (Pph non final).<br>
+                                - Sentralisasi PPN.<br>
+                                - Membuat draft jawaban atas Surat Permintaan Penjelasan atas Data dan Keternagan (SP2DK).<br>
+                                - Dan lain-lain<br>
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(3)" id="toggle-button-3" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Jasa Konsultasi Perpajakan</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-4"></span>Memberikan jasa konsultasi perpajakan secara rutin maupun insidentil, baik atas permasalahan perpajakan yang bersifat umum maupun yang bersifat khusus. </span>
+                            <span id="full-text-4" style="display: none;">
+                                Konsultasi ini juga berkaitan dengan perubahan ketentuan perpajakan yang selalu bersifat dinamis (berubah-ubah). Perubahan ketentuan perpajakan ini akan kami informasikan tanpa menunggu konfirmasi permintaan konsultasi dari klien baik dengan email maupun sarana komunikasi lainnya.
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(4)" id="toggle-button-4" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Jasa Kepatuhan Pajak</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-5"></span>Membantu Perusahaan atas pemenuhan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku, termasuk menghitung, menyiapkan SPT dan menyetorkan pajak terutang ke Kas Negara dengan SSP,</span>
+                            <span id="full-text-5" style="display: none;">
+                                 serta melaporkannya ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar berdasar laporan keuangan dan data klien lainnya, yang meliputi:
+                                <br>
+                                - SPT Masa PPh Pasal 21/26 <br>
+                                - SPT Masa PPh Pasal 23, 4 ayat (2), 26 Unifikasi <br>
+                                - SPT Masa PPh Final <br>
+                                - SPT Masa PPN/PPnBM <br>
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(5)" id="toggle-button-5" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+                <!-- baris 2 -->
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Jasa Telaah pajak - Semesteran/Tahunan</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-6"></span>Kami melakukan review atas semua praktek akuntansi yang telah dijalankan perusahaan untuk memberikan gambaran atas tingkat kepatuhan klien pada peraturan pajak yang berlaku dan tingkat resiko pajak. </span>
+                            <span id="full-text-6" style="display: none;">
+                                Review kami meliputi atas transaksi yang berpengaruh pada Pajak Penghasilan Perusahaan, Pajak Penghasilan Karyawan, Pajak Penghasilan yang bersifat final dan Pajak Pertambahan Nilai serta menghitung pajak yang terutang dari hasil temuan (tax exposure).
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(6)" id="toggle-button-6" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Penyusunan SPT Tahunan</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-7"></span>Membantu Perusahaan atau Perseorangan untuk menyusun SPT PPh Tahunan Badan sesuai dengan Laporan Keuangan perusahaan, SPT PPh Tahunan Orang Pribadi sesuai dengan Laporan Keuangan atau </span>
+                            <span id="full-text-7" style="display: none;">
+                                Pencatatan pada tahun bersangkutan, SPT PPh Masa Desember Pph 21/26 berdasarkan penghasilan karyawan dan atau bukan karyawan selama setahun termasuk menghitung secara benar sesuai dengan formula yang kami sajikan besarnya Pph 21 masing-masing karyawan berupa Bukti Potong 1721 A1. Bila dibuat secara ringkas jasa yang diberikan terkait penyusunan SPT Tahunan yaitu:
+                                <br>
+                                - Penyusunan dan Pelaporan SPT Tahunan PPh Badan;
+                                <br>
+                                - Penyusunan dan Pelaporan SPT Tahunan PPh Orang Pribadi;
+                                <br>
+                                - Penyusunan dan Pelaporan SPT PPh Masa Desember Pasal 21/26 dan Bukti Potong 1721 A1 Karyawan.
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(7)" id="toggle-button-7" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Jasa Pembuatan Dokumentasi Harga Transfer</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-8"></span>Memberikan jasa pembuatan dokumentasi harga transfer (TP Doc) sesuai peraturan Menteri Keuangan Nomor PMK-213/PMK.03/2016 tentang Jenis Dokumen dan/atau </span>
+                            <span id="full-text-8" style="display: none;">
+                                 Informasi Tambahan yang Wajib Disimpan oleh Wajib Pajak yang Melakukan Transaksi dengan Para Pihak yang Mempunyai Hubungan Istimewa, dan Tata Cara Pengelolaannya yaitu Dokumen Induk (Master File), Dokumen Lokal (Local File), dan Country by Country Report (CbCR).
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(8)" id="toggle-button-8" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+
+                <!-- baris 3 -->
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Jasa Pendampingan Perpajakan</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-9"></span>- Tax Assessment Assistance; mendampingi proses pemeriksaan sampai selesai, termasuk memberikan penjelasan atas hasil temuan pemeriksa sampai mendapatkan hasil berupa Surat Ketetapan Pajak (SKP) termasuk pendampingan pemeriksaan bukti permulaan dan pendampingan penyidikan pajak.</span>
+                            <span id="full-text-9" style="display: none;">
+                                - Tax Objection Assistance; mendampingi proses keberatan sampai selesai, termasuk menyiapkan surat keberatan, memberikan penjelasan kepada fiskus sampai mendapatkan hasil putusan berupa Surat Keputusan Keberatan.
+                                <br>
+                                - Tax Appeal; mendampingi proses banding di Pengadilan Pajak sampai selesai, termasuk menyiapkan surat banding dan bantahan, memberikan penjelasan kepada Majelis Hakim, sampai mendapatkan hasil berupa Putusan Banding.
+                                <br>
+                                - Mendampingi Perusahaan untuk memperoleh hasil maksimum sehubungan dengan pengajuan permohonan Peninjauan Kembali ke Mahkamah Agung.
+                                <br>
+                                - Tax Refund (Restitution); mendampingi proses restitusi pajak yang merupakan hak wajib pajak sesuai dengan ketentuan peraturan perundang-undangan yang berlaku sampai mendapatkan hasil berupa surat perintah pembayaran kelebihan pajak.
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(9)" id="toggle-button-9" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Jasa Perencanaan Perpajakan</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-10"></span>Membantu Perusahaan menyusun rencana perpajakan agar dapat meningkatkan efisiensi Perusahaan atau Perseorangan dalam masalah perpajakan di masa yang akan datang. Dalam Perencanaan Pajak termasuk juga didalamnya Jasa Telaah Perpajakan (Tax Review) khususnya  </span>
+                            <span id="full-text-10" style="display: none;">
+                                perusahaan yaitu kami melakukan review atas semua praktek akuntansi yang telah dijalankan perusahaan untuk memberikan gambaran atas tingkat kepatuhan klien pada peraturan pajak yang berlaku dan tingkat resiko pajak. Review kami meliputi atas transaksi yang berpengaruh pada Pajak Penghasilan Perusahaan, Pajak Penghasilan Karyawan, Pajak Penghasilan yang bersifat final dan Pajak Pertambahan Nilai serta menghitung pajak yang terutang dari hasil temuan (tax exposure).
+                            </span>
+                        </p>
+                       
+                        <!-- Tombol See More/Less -->
+                        <button onclick="toggleCardText(10)" id="toggle-button-10" class="text-blue-500 hover:underline">
+                            See more
+                        </button>
+                    </a>
+    
+                </div>
+
+                <div class="w-max-sm hover:bg-gray-100 bg-white border border-blue-200 rounded-lg shadow"  data-aos="zoom-in-up" data-aos-duration="600">
+                    
+                    <a class="block p-6">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-blue-900 ">Jasa Pelatihan Perpajakan</h5>
+                        <p class="font-normal text-gray-700">
+                            <span id="short-text-8"></span>Menyelenggarakan pelatihan perpajakan dalam perusahaan guna meningkatkan keahlian dan pengetahuan karyawan, baik dalam perpajakan umum untuk semua jenis pajak maupun topik khusus perpajakan untuk industri khusus sesuai kebutuhan klien. </span>
+                        </p>
+                    </a>
+    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container mx-auto flex flex-col md:flex-row items-center bg-gray-200 lg:px-28 lg:pt-5 pb-7 text-blue-900">
+        <div class="max-w-4xl mx-auto py-10 px-6">
+            <h2 class="text-3xl font-bold text-center mb-6">Klien Kami</h2>
+          
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700 text-lg">
+              <!-- Kolom Kiri -->
+              <div>
+                <ul class="list-disc pl-4 space-y-2">
+                  <li>PT Nusantara Virya Cintamani</li>
+                  <li>Jakarta (IUP dan Trading Nikel)</li>
+                  <li>PT Sinergi Digital Global Mulia (Minigold)</li>
+                  <li>PT Sinergi Kreasi Nusantara</li>
+                  <li>PT Ruang Emas Indonesia (Trading Gold, Diamond, Jewelry)</li>
+                </ul>
+              </div>
+          
+              <!-- Kolom Kanan -->
+              <div>
+                <ul class="list-disc pl-4 lg:pl-28 space-y-2">
+                  <li>PT Prima Mitra Megasela</li>
+                  <li>PT Kumala Mitra Prima</li>
+                  <li>PT AIRIN</li>
+                  <li>CV Brilian Prima Abadi</li>
+                  <li>CV Garda Service Indonesia</li>
+                </ul>
+              </div>
+            </div>
+        </div>          
+    </section>
+
+    <section class="container mx-auto bg-blue-900 shadow-lg w-full lg:px-28 lg:pt-5 pb-7 text-white">
+        <div class="max-w-4xl mx-auto py-10 px-6">
+            <h2 class="text-3xl font-bold text-center mb-6" data-aos="zoom-in-up" data-aos-duration="600">Izin Usaha</h2>
+          
+
+            <ol class="relative border-s border-gray-200 dark:border-gray-700 lg:ms-36" data-aos="zoom-in-up" data-aos-duration="600">                  
+                <li class="mb-10 ms-4">
+                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+                    <h3 class="text-lg font-semibold ">Nomor Induk Berusaha</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <p class="text-base font-normal">Nomor Induk Berusaha</p>
+                        <p class="text-base font-normal"> : 031 0220014377</p>
+                        <p class="text-base font-normal">Diterbitkan Pada </p>
+                        <p class="mb-4 text-base font-normal">: 3 Oktober 2022</p>
+                    </div>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+                    <h3 class="text-lg font-semibold ">Akta Pendirian Notaris</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <p class="text-base font-normal">Nomor Akta</p>
+                        <p class="text-base font-normal"> : 10</p>
+                        <p class="text-base font-normal">Diterbitkan Tanggal </p>
+                        <p class="text-base font-normal">: 29 September 2022 </p>
+                        <p class="text-base font-normal">Nama Notaris </p>
+                        <p class="mb-4 text-base font-normal">: Meety Indah Sari, S.H, M.Kn</p>
+                    </div>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+                    <h3 class="text-lg font-semibold ">SK Kementrian Hukum Dan HAM</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <p class="text-base font-normal">Nomor</p>
+                        <p class="text-base font-normal"> : AHU-0067924.AH.01.01.Tahun 2022</p>
+                        <p class="text-base font-normal">Diterbitkan Tanggal </p>
+                        <p class="mb-4 text-base font-normal">: 1 Oktober 2022</p>
+                    </div>
+                </li>
+            </ol>
+
+
+        </div>          
+    </section>
+
+
+    <!-- footer -->
+    <footer class="bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+              <div class="mb-6 md:mb-0 text-center md:text-left">
+                  <a href="#" class="flex items-center justify-center md:justify-start mb-1 md:mb-6">
+                      <img src="../src/asset/logo-putih.png" class="h-12 me-3" alt="logo" />
+                  </a>
+                  <a href="3" class="hover:underline text-gray-400 font-medium text-xs lg:text-base" target="_blank">Level 5 Suite 501-504, Tower B, Beltway Office Park <br>Jl. Letjen TB Simatupang No 41 <br> Jakarta Selatan- 12550</a>
+              </div>
+              <div class="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-3 place-content-center text-center lg:text-left">
+
+                  <div class="mx-auto">
+                    <h2 class="lg:mb-6 text-sm font-semibold  uppercase text-white">Contact</h2>
+                    <ul class="text-gray-400 font-medium text-xs lg:text-base">
+                        <li>
+                            <a href="mailto:test@gmail.com" class="hover:underline">test@gmail.com</a>
+                        </li>
+                        <li>
+                          <a href="tel:02129857249" class="hover:underline">021-29857249</a>
+                        </li>
+                        <li>
+                          <a href="tel:081280499254" class="hover:underline">0812-8049-9254</a>
+                        </li>
+                        <li>
+                          <a href="tel:085362629081" class="hover:underline">0853-6262-9081</a>
+                        </li>
+                    </ul>
+                  </div>
+
+                  <div class="mx-auto">
+                    <h2 class="lg:mb-6 text-sm font-semibold  uppercase text-white">Company</h2>
+                    <ul class="text-gray-400 font-medium text-xs lg:text-base">
+                        <li class="">
+                            <a href="#" class="hover:underline ">About us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Our team</a>
+                        </li>
+                        <li>
+                          <a href="#" class="hover:underline">Events</a>
+                        </li>
+                        <li>
+                          <a href="#" class="hover:underline">Our program</a>
+                        </li>
+                        <li>
+                          <a href="#" class="hover:underline">Help &amp; support</a>
+                        </li>
+                    </ul>
+                  </div>
+
+                  <div class="mx-auto">
+                      <h2 class="lg:mb-6 text-sm font-semibold  uppercase text-white">Connect with us</h2>
+                      <ul class="text-gray-400 font-medium mt-2 lg:mt-0">
+                          <li class="flex justify-center lg:justify-start">
+                              <span class="fill-white"><a href="mailto:">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a></span>
+
+                              <span class="fill-white px-2"><a href="#">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></span>
+
+                              <span class="fill-white"><a href="">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></span>
+                          </li>
+                      </ul>
+                  </div>
+
+              </div>
+          </div>
+          <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+
+          <span class="text-sm text-center mx-auto text-gray-400">© 2024 <a href="#" class="hover:underline">PT Nafari Abhipraya Cipta</a>. All Rights Reserved.
+          </span>
+        </div>
+    </footer>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script> -->
+    <script>
+        function toggleCardText(cardId) {
+            // Ambil elemen berdasarkan ID
+            var shortText = document.getElementById(`short-text-${cardId}`);
+            var fullText = document.getElementById(`full-text-${cardId}`);
+            var toggleButton = document.getElementById(`toggle-button-${cardId}`);
+    
+            // Toggle tampilan teks dan update teks tombol
+            if (fullText.style.display === "none") {
+                fullText.style.display = "block";
+                shortText.style.display = "none";
+                toggleButton.textContent = "See less";
+            } else {
+                fullText.style.display = "none";
+                shortText.style.display = "inline";
+                toggleButton.textContent = "See more";
+            }
+        }
+    </script>
+    
+    
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+    
+</body>
+</html>
